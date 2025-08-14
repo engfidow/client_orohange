@@ -49,7 +49,7 @@ export default function Children() {
   const [preview, setPreview] = useState<string | null>(null);
   const [isEdit, setIsEdit] = useState(false);
   const [submitLoading, setSubmitLoading] = useState(false);
-  const [detailsModal, setDetailsModal] = useState(false);
+
 
   const { register, handleSubmit, reset, setValue, formState: { errors } } = useForm<ChildFormData>();
 
